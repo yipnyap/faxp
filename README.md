@@ -62,7 +62,7 @@ Ensure you have Node.JS & Yarn installed. Then, follow these steps:
 
 ## Contributing
 If you want to contribute, feel free to open a PR. If you want to help out, but don't know where to start, check out
-the [issues](/issues) page. If you want to help out, but don't know how to code, you can help out by testing the tool
+the [issues](/../../issues) page. If you want to help out, but don't know how to code, you can help out by testing the tool
 and reporting any bugs you find.
 
 Please also see the [Code of Conduct](/CODE_OF_CONDUCT.md) and [Contributing Guidelines](/CONTRIBUTING.md).

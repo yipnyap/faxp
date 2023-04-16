@@ -8,5 +8,5 @@ Pull requests are welcome! Please ensure that your code is formatted using Prett
 using ESLint. You can run `yarn lint` to lint your code.
 
 ### Issues
-If you find any issues, please report them [here](/issues). Please ensure that you provide as much information as
+If you find any issues, please report them [here](/../../issues). Please ensure that you provide as much information as
 possible, including screenshots, logs, and steps to reproduce.
