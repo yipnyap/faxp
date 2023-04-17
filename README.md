@@ -11,7 +11,7 @@ interface Submission {
     id: number;
     title?: string;
     description?: string;
-    date: number; // Unix timestamp in milliseconds
+    date: number; // Unix timestamp in milliseconds. Heavily inaccurate as it's calculated in your timezone from EST, but useful for sorting.
     image: string; // URL to the image hosted on FurAffinity
     tags: string[];
     scrap: boolean;

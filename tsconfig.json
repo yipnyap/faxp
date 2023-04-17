@@ -20,8 +20,10 @@
     "src/**/*"
   ],
   "exclude": [
-    "src/renderer.ts",
-    "src/components/**/*",
-    "services/**/*",
+    "src/theme.tsx",
+    "src/renderer.tsx",
+    "src/components",
+    "src/services",
+    "src/pages"
   ]
 }

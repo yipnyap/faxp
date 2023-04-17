@@ -14,6 +14,14 @@ if (!jquery('.navhideonmobile').html().toLowerCase().includes('log in')) {
     root.setAttribute('style', 'z-index: 999999; position: fixed; top: 0; left: 0; height: 100%; width: 100%;');
     document.body.appendChild(root);
 
+    // remove overflow from body, remove everything, and remove all scripts and styles
+    document.documentElement.style.overflow = 'hidden';
+    document.getElementById('main-window')?.remove();
+    document.getElementById('footer')?.remove();
+    document.getElementById('header')?.remove();
+    document.getElementById('site-content')?.remove();
+    document.querySelectorAll('script, style').forEach(el => el.remove());
+
     ReactDOM.createRoot(document.querySelector("#root")).render(
         <React.StrictMode>
             <StyledEngineProvider injectFirst>
