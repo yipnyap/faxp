@@ -1,7 +1,7 @@
 # Contributing
 ### Code of Conduct
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are
-expected to uphold this code. Please report unacceptable behavior to [Yipnyap](https://yipnyap.com/contact).
+expected to uphold this code. Please report unacceptable behavior to [Rek](rek@yipnyap.me).
 
 ### Pull Requests
 Pull requests are welcome! Please ensure that your code is formatted using Prettier, and that your code is linted
